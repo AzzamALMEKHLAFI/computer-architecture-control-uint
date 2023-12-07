@@ -72,7 +72,7 @@ public class _21670310160_Okuma {
           System.out.print(findFirstOneIndex(zaman_sinyallari)+" zamaninda "+"I="+I+" ");
           System.out.print(findFirstOneIndex(opc_kod));
 
-          System.out.print("aktif IR(11-0)");
+          System.out.print(" aktif IR(11-0)");
 
           for (int j = 4; j < ir_register.length; j++) {
         	  System.out.print(ir_register[j]);        			
@@ -94,23 +94,7 @@ public class _21670310160_Okuma {
           
 
           
-        /*  for (int b : opc_kod) {
-        	  	System.out.print(b);			
-		}
-			System.out.print(" ");
-
-          for (int b : zaman_sinyallari) {
-			System.out.print(b);
-		}
-			System.out.print(" ");
-
-          for (int j = 0; j < ir_register.length; j++) {
-
-        	  System.out.print(ir_register[j]);
-		}
-          System.out.println();*/
-           		 
-      		 
+    
       	}
 	
 }  catch (FileNotFoundException e) {
