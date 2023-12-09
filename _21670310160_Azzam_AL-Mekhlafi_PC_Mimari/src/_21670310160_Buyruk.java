@@ -60,7 +60,7 @@ public class _21670310160_Buyruk {
                 return entry.getKey();
             }
         }
-        return null; // Return null if no matching key is found
+        return null; 
     }
 	  String Buyruk_Bellek_dogru_getir( String value) {
         for (HashMap.Entry<String, String> entry : Bellek_Dogru_Adersleme.entrySet()) {
@@ -77,7 +77,6 @@ public class _21670310160_Buyruk {
 	    	  int intValue = Integer.parseInt(hexValue, 16);
 	    	    String binaryValue = Integer.toBinaryString(intValue);
 
-	    	    // Ensure that the binary value has leading zeros to make it 16 bits
 	    	    int leadingZerosCount = 16 - binaryValue.length();
 	    	    StringBuilder leadingZeros = new StringBuilder();
 	    	    
